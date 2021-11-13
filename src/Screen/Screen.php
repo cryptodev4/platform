@@ -75,7 +75,7 @@ abstract class Screen extends Controller
      *
      * @return Layout[]
      */
-    abstract public function layout(): array;
+    abstract public function layout(): iterable;
 
     /**
      * @throws Throwable
